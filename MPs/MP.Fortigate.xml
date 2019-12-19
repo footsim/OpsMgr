@@ -8,32 +8,32 @@
     <References>
       <Reference Alias="MicrosoftSystemCenterNetworkDeviceLibrary72117190">
         <ID>Microsoft.SystemCenter.NetworkDevice.Library</ID>
-        <Version>7.2.11719.0</Version>
+        <Version>10.19.10050.0</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="SCDW">
         <ID>Microsoft.SystemCenter.DataWarehouse.Library</ID>
-        <Version>7.2.11719.0</Version>
+        <Version>10.19.10050.0</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="Snmp">
         <ID>System.Snmp.Library</ID>
-        <Version>7.0.8437.0</Version>
+        <Version>7.0.8443.6</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="MicrosoftSystemCenterServiceDesignerLibrary7084370">
         <ID>Microsoft.SystemCenter.ServiceDesigner.Library</ID>
-        <Version>7.0.8437.0</Version>
+        <Version>7.0.8443.6</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="NetworkLibrary">
         <ID>System.NetworkManagement.Library</ID>
-        <Version>7.2.11719.0</Version>
+        <Version>10.19.10050.0</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="Hardware">
         <ID>System.Hardware.Library</ID>
-        <Version>7.0.8437.0</Version>
+        <Version>7.0.8443.6</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="Windows">
@@ -43,17 +43,17 @@
       </Reference>
       <Reference Alias="MicrosoftSystemCenterSyntheticTransactionsLibrary">
         <ID>Microsoft.SystemCenter.SyntheticTransactions.Library</ID>
-        <Version>7.2.12213.0</Version>
+        <Version>10.19.10050.0</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="Performance">
         <ID>System.Performance.Library</ID>
-        <Version>7.0.8437.0</Version>
+        <Version>7.0.8443.6</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="NetworkMonitoring">
         <ID>System.NetworkManagement.Monitoring</ID>
-        <Version>7.2.11719.0</Version>
+        <Version>10.19.10050.0</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="Image">
@@ -73,12 +73,12 @@
       </Reference>
       <Reference Alias="SystemCenter">
         <ID>Microsoft.SystemCenter.Library</ID>
-        <Version>7.0.8437.13</Version>
+        <Version>7.0.8443.6</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
       <Reference Alias="SystemHealth">
         <ID>System.Health.Library</ID>
-        <Version>7.0.8437.0</Version>
+        <Version>7.0.8443.6</Version>
         <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
       </Reference>
     </References>
@@ -86,43 +86,24 @@
   <TypeDefinitions>
     <EntityTypes>
       <ClassTypes>
-        <ClassType ID="UINameSpace97312bd43ebb4515bed7fea74e3dd725.Group" Accessibility="Public" Abstract="false" Base="MicrosoftSystemCenterInstanceGroupLibrary7585010!Microsoft.SystemCenter.InstanceGroup" Hosted="false" Singleton="true" Extension="false" />
-        <ClassType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" Accessibility="Public" Abstract="false" Base="MicrosoftSystemCenterSyntheticTransactionsLibrary!Microsoft.SystemCenter.SyntheticTransactions.TCPPortCheckPerspective" Hosted="true" Singleton="false" Extension="false" />
-        <ClassType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup" Accessibility="Public" Abstract="false" Base="MicrosoftSystemCenterSyntheticTransactionsLibrary!Microsoft.SystemCenter.SyntheticTransactions.TCPPortCheckPerspectiveGroup" Hosted="false" Singleton="true" Extension="false" />
-        <ClassType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup" Accessibility="Public" Abstract="false" Base="SystemCenter!Microsoft.SystemCenter.ComputerGroup" Hosted="false" Singleton="true" Extension="false" />
-        <ClassType ID="Service_c873d9d468064f86bf2542eeeb463c60" Accessibility="Public" Abstract="false" Base="MicrosoftSystemCenterServiceDesignerLibrary7084370!Microsoft.SystemCenter.ServiceDesigner.GenericService" Hosted="false" Singleton="true" Extension="false" />
-        <ClassType ID="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" Accessibility="Public" Abstract="false" Base="MicrosoftSystemCenterServiceDesignerLibrary7084370!Microsoft.SystemCenter.ServiceDesigner.ServiceComponentGroup" Hosted="false" Singleton="true" Extension="false" />
-        <ClassType ID="System.NetworkManagement.4e44b84a783b47f599041925e0f55710" Accessibility="Public" Abstract="false" Base="NetworkLibrary!System.NetworkManagement.Node" Hosted="false" Singleton="false" Extension="false" />
-        <ClassType ID="System.NetworkManagement.6badec72745343f09b523978d708a5fb" Accessibility="Public" Abstract="false" Base="NetworkLibrary!System.NetworkManagement.Node" Hosted="false" Singleton="false" Extension="false" />
+        <ClassType ID="UINameSpace97312bd43ebb4515bed7fea74e3dd725.Group" Accessibility="Public" Abstract="false" Base="MicrosoftSystemCenterInstanceGroupLibrary7585010!Microsoft.SystemCenter.InstanceGroup" Hosted="false" Singleton="true" Extension="false"/>
+        <ClassType ID="System.NetworkManagement.4e44b84a783b47f599041925e0f55710" Accessibility="Public" Abstract="false" Base="NetworkLibrary!System.NetworkManagement.Node" Hosted="false" Singleton="false" Extension="false"/>
+        <ClassType ID="System.NetworkManagement.6badec72745343f09b523978d708a5fb" Accessibility="Public" Abstract="false" Base="NetworkLibrary!System.NetworkManagement.Node" Hosted="false" Singleton="false" Extension="false"/>
       </ClassTypes>
-      <RelationshipTypes>
-        <RelationshipType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Contains.TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" Accessibility="Public" Abstract="false" Base="System!System.Containment">
-          <Source ID="Source" MinCardinality="0" MaxCardinality="2147483647" Type="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup" />
-          <Target ID="Target" MinCardinality="0" MaxCardinality="2147483647" Type="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" />
-        </RelationshipType>
-        <RelationshipType ID="SCMembership_45acd2b5db4f4d1891e661e01a04d973" Accessibility="Public" Abstract="false" Base="System!System.Containment">
-          <Source ID="source" MinCardinality="0" MaxCardinality="2147483647" Type="Service_c873d9d468064f86bf2542eeeb463c60" />
-          <Target ID="target" MinCardinality="0" MaxCardinality="2147483647" Type="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" />
-        </RelationshipType>
-        <RelationshipType ID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab" Accessibility="Public" Abstract="false" Base="System!System.Containment">
-          <Source ID="source" MinCardinality="0" MaxCardinality="2147483647" Type="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" />
-          <Target ID="target" MinCardinality="0" MaxCardinality="2147483647" Type="System!System.Entity" />
-        </RelationshipType>
-      </RelationshipTypes>
     </EntityTypes>
     <ModuleTypes>
       <DataSourceModuleType ID="System.NetworkManagement.4e44b84a783b47f599041925e0f55710_DataSource" Accessibility="Internal" Batching="false">
         <Configuration>
-          <xsd:element minOccurs="1" name="IntervalSeconds" type="xsd:integer" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="0" name="SyncTime" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="1" name="SysObjId" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="1" name="Certification" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="0" name="Model" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="0" name="Vendor" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+          <xsd:element minOccurs="1" name="IntervalSeconds" type="xsd:integer" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="0" name="SyncTime" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="1" name="SysObjId" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="1" name="Certification" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="0" name="Model" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="0" name="Vendor" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
         </Configuration>
         <OverrideableParameters>
-          <OverrideableParameter ID="IntervalSeconds" Selector="$Config/IntervalSeconds$" ParameterType="int" />
-          <OverrideableParameter ID="SyncTime" Selector="$Config/SyncTime$" ParameterType="string" />
+          <OverrideableParameter ID="IntervalSeconds" Selector="$Config/IntervalSeconds$" ParameterType="int"/>
+          <OverrideableParameter ID="SyncTime" Selector="$Config/SyncTime$" ParameterType="string"/>
         </OverrideableParameters>
         <ModuleImplementation Isolation="Any">
           <Composite>
@@ -133,7 +114,7 @@
                     <Interval>$Config/IntervalSeconds$</Interval>
                     <SyncTime>$Config/SyncTime$</SyncTime>
                   </SimpleReccuringSchedule>
-                  <ExcludeDates />
+                  <ExcludeDates/>
                 </Scheduler>
               </DataSource>
               <ConditionDetection ID="CheckAndMapProperties" TypeID="System!System.Discovery.FilteredClassSnapshotDataMapper">
@@ -173,7 +154,7 @@
             </MemberModules>
             <Composition>
               <Node ID="CheckAndMapProperties">
-                <Node ID="Scheduler" />
+                <Node ID="Scheduler"/>
               </Node>
             </Composition>
           </Composite>
@@ -182,16 +163,16 @@
       </DataSourceModuleType>
       <DataSourceModuleType ID="System.NetworkManagement.6badec72745343f09b523978d708a5fb_DataSource" Accessibility="Internal" Batching="false">
         <Configuration>
-          <xsd:element minOccurs="1" name="IntervalSeconds" type="xsd:integer" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="0" name="SyncTime" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="1" name="SysObjId" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="1" name="Certification" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="0" name="Model" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-          <xsd:element minOccurs="0" name="Vendor" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+          <xsd:element minOccurs="1" name="IntervalSeconds" type="xsd:integer" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="0" name="SyncTime" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="1" name="SysObjId" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="1" name="Certification" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="0" name="Model" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+          <xsd:element minOccurs="0" name="Vendor" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
         </Configuration>
         <OverrideableParameters>
-          <OverrideableParameter ID="IntervalSeconds" Selector="$Config/IntervalSeconds$" ParameterType="int" />
-          <OverrideableParameter ID="SyncTime" Selector="$Config/SyncTime$" ParameterType="string" />
+          <OverrideableParameter ID="IntervalSeconds" Selector="$Config/IntervalSeconds$" ParameterType="int"/>
+          <OverrideableParameter ID="SyncTime" Selector="$Config/SyncTime$" ParameterType="string"/>
         </OverrideableParameters>
         <ModuleImplementation Isolation="Any">
           <Composite>
@@ -202,7 +183,7 @@
                     <Interval>$Config/IntervalSeconds$</Interval>
                     <SyncTime>$Config/SyncTime$</SyncTime>
                   </SimpleReccuringSchedule>
-                  <ExcludeDates />
+                  <ExcludeDates/>
                 </Scheduler>
               </DataSource>
               <ConditionDetection ID="CheckAndMapProperties" TypeID="System!System.Discovery.FilteredClassSnapshotDataMapper">
@@ -242,250 +223,21 @@
             </MemberModules>
             <Composition>
               <Node ID="CheckAndMapProperties">
-                <Node ID="Scheduler" />
+                <Node ID="Scheduler"/>
               </Node>
             </Composition>
           </Composite>
         </ModuleImplementation>
         <OutputType>System!System.Discovery.Data</OutputType>
       </DataSourceModuleType>
-      <DataSourceModuleType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TCPPortCheckDataSource" Accessibility="Public" Batching="false">
-        <Configuration />
-        <ModuleImplementation Isolation="Any">
-          <Composite>
-            <MemberModules>
-              <DataSource ID="Scheduler" TypeID="System!System.Scheduler">
-                <Scheduler>
-                  <SimpleReccuringSchedule>
-                    <Interval Unit="Seconds">300</Interval>
-                  </SimpleReccuringSchedule>
-                  <ExcludeDates />
-                </Scheduler>
-              </DataSource>
-              <ProbeAction ID="Probe" TypeID="MicrosoftSystemCenterSyntheticTransactionsLibrary!Microsoft.SystemCenter.SyntheticTransactions.TCPPortCheckProbe">
-                <ServerName>172.29.120.3</ServerName>
-                <Port>8080</Port>
-              </ProbeAction>
-            </MemberModules>
-            <Composition>
-              <Node ID="Probe">
-                <Node ID="Scheduler" />
-              </Node>
-            </Composition>
-          </Composite>
-        </ModuleImplementation>
-        <OutputType>MicrosoftSystemCenterSyntheticTransactionsLibrary!Microsoft.SystemCenter.SyntheticTransactions.TCPPortCheckData</OutputType>
-      </DataSourceModuleType>
     </ModuleTypes>
-    <MonitorTypes>
-      <UnitMonitorType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOut" Accessibility="Public">
-        <MonitorTypeStates>
-          <MonitorTypeState ID="TimeOutFailure" NoDetection="false" />
-          <MonitorTypeState ID="NoTimeOutFailure" NoDetection="false" />
-        </MonitorTypeStates>
-        <Configuration />
-        <MonitorImplementation>
-          <MemberModules>
-            <DataSource ID="DS1" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TCPPortCheckDataSource" />
-            <ConditionDetection ID="CDTimeOutFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>Equal</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147952460</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-            <ConditionDetection ID="CDNoTimeOutFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>NotEqual</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147952460</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-          </MemberModules>
-          <RegularDetections>
-            <RegularDetection MonitorTypeStateID="TimeOutFailure">
-              <Node ID="CDTimeOutFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-            <RegularDetection MonitorTypeStateID="NoTimeOutFailure">
-              <Node ID="CDNoTimeOutFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-          </RegularDetections>
-        </MonitorImplementation>
-      </UnitMonitorType>
-      <UnitMonitorType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefused" Accessibility="Public">
-        <MonitorTypeStates>
-          <MonitorTypeState ID="ConnectionRefusedFailure" NoDetection="false" />
-          <MonitorTypeState ID="NoConnectionRefusedFailure" NoDetection="false" />
-        </MonitorTypeStates>
-        <Configuration />
-        <MonitorImplementation>
-          <MemberModules>
-            <DataSource ID="DS1" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TCPPortCheckDataSource" />
-            <ConditionDetection ID="CDConnectionRefusedFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>Equal</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147952461</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-            <ConditionDetection ID="CDNoConnectionRefusedFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>NotEqual</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147952461</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-          </MemberModules>
-          <RegularDetections>
-            <RegularDetection MonitorTypeStateID="ConnectionRefusedFailure">
-              <Node ID="CDConnectionRefusedFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-            <RegularDetection MonitorTypeStateID="NoConnectionRefusedFailure">
-              <Node ID="CDNoConnectionRefusedFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-          </RegularDetections>
-        </MonitorImplementation>
-      </UnitMonitorType>
-      <UnitMonitorType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolution" Accessibility="Public">
-        <MonitorTypeStates>
-          <MonitorTypeState ID="DNSResolutionFailure" NoDetection="false" />
-          <MonitorTypeState ID="NoDNSResolutionFailure" NoDetection="false" />
-        </MonitorTypeStates>
-        <Configuration />
-        <MonitorImplementation>
-          <MemberModules>
-            <DataSource ID="DS1" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TCPPortCheckDataSource" />
-            <ConditionDetection ID="CDDNSResolutionFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>Equal</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147953401</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-            <ConditionDetection ID="CDNoDNSResolutionFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>NotEqual</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147953401</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-          </MemberModules>
-          <RegularDetections>
-            <RegularDetection MonitorTypeStateID="DNSResolutionFailure">
-              <Node ID="CDDNSResolutionFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-            <RegularDetection MonitorTypeStateID="NoDNSResolutionFailure">
-              <Node ID="CDNoDNSResolutionFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-          </RegularDetections>
-        </MonitorImplementation>
-      </UnitMonitorType>
-      <UnitMonitorType ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachable" Accessibility="Public">
-        <MonitorTypeStates>
-          <MonitorTypeState ID="HostUnreachableFailure" NoDetection="false" />
-          <MonitorTypeState ID="NoHostUnreachableFailure" NoDetection="false" />
-        </MonitorTypeStates>
-        <Configuration />
-        <MonitorImplementation>
-          <MemberModules>
-            <DataSource ID="DS1" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TCPPortCheckDataSource" />
-            <ConditionDetection ID="CDHostUnreachableFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>Equal</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147952465</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-            <ConditionDetection ID="CDNoHostUnreachableFailure" TypeID="System!System.ExpressionFilter">
-              <Expression>
-                <SimpleExpression>
-                  <ValueExpression>
-                    <XPathQuery Type="UnsignedInteger">StatusCode</XPathQuery>
-                  </ValueExpression>
-                  <Operator>NotEqual</Operator>
-                  <ValueExpression>
-                    <Value Type="UnsignedInteger">2147952465</Value>
-                  </ValueExpression>
-                </SimpleExpression>
-              </Expression>
-            </ConditionDetection>
-          </MemberModules>
-          <RegularDetections>
-            <RegularDetection MonitorTypeStateID="HostUnreachableFailure">
-              <Node ID="CDHostUnreachableFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-            <RegularDetection MonitorTypeStateID="NoHostUnreachableFailure">
-              <Node ID="CDNoHostUnreachableFailure">
-                <Node ID="DS1" />
-              </Node>
-            </RegularDetection>
-          </RegularDetections>
-        </MonitorImplementation>
-      </UnitMonitorType>
-    </MonitorTypes>
   </TypeDefinitions>
   <Monitoring>
     <Discoveries>
       <Discovery ID="System.NetworkManagement.4e44b84a783b47f599041925e0f55710_Discovery" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ConfirmDelivery="false" Remotable="true" Priority="Normal">
         <Category>Discovery</Category>
         <DiscoveryTypes>
-          <DiscoveryClass TypeID="System.NetworkManagement.4e44b84a783b47f599041925e0f55710" />
+          <DiscoveryClass TypeID="System.NetworkManagement.4e44b84a783b47f599041925e0f55710"/>
         </DiscoveryTypes>
         <DataSource ID="DS" TypeID="System.NetworkManagement.4e44b84a783b47f599041925e0f55710_DataSource">
           <IntervalSeconds>300</IntervalSeconds>
@@ -498,7 +250,7 @@
       <Discovery ID="System.NetworkManagement.6badec72745343f09b523978d708a5fb_Discovery" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ConfirmDelivery="false" Remotable="true" Priority="Normal">
         <Category>Discovery</Category>
         <DiscoveryTypes>
-          <DiscoveryClass TypeID="System.NetworkManagement.6badec72745343f09b523978d708a5fb" />
+          <DiscoveryClass TypeID="System.NetworkManagement.6badec72745343f09b523978d708a5fb"/>
         </DiscoveryTypes>
         <DataSource ID="DS" TypeID="System.NetworkManagement.6badec72745343f09b523978d708a5fb_DataSource">
           <IntervalSeconds>300</IntervalSeconds>
@@ -511,7 +263,7 @@
       <Discovery ID="UINameSpace97312bd43ebb4515bed7fea74e3dd725.Group.DiscoveryRule" Enabled="true" Target="UINameSpace97312bd43ebb4515bed7fea74e3dd725.Group" ConfirmDelivery="false" Remotable="true" Priority="Normal">
         <Category>Discovery</Category>
         <DiscoveryTypes>
-          <DiscoveryRelationship TypeID="MicrosoftSystemCenterInstanceGroupLibrary7585010!Microsoft.SystemCenter.InstanceGroupContainsEntities" />
+          <DiscoveryRelationship TypeID="MicrosoftSystemCenterInstanceGroupLibrary7585010!Microsoft.SystemCenter.InstanceGroupContainsEntities"/>
         </DiscoveryTypes>
         <DataSource ID="GroupPopulationDataSource" TypeID="SystemCenter!Microsoft.SystemCenter.GroupPopulator">
           <RuleId>$MPElement$</RuleId>
@@ -533,173 +285,17 @@
           </MembershipRules>
         </DataSource>
       </Discovery>
-      <Discovery ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.Discovery.Rule" Enabled="false" Target="Windows!Microsoft.Windows.Computer" ConfirmDelivery="false" Remotable="true" Priority="Normal">
-        <Category>Discovery</Category>
-        <DiscoveryTypes>
-          <DiscoveryClass TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" />
-          <DiscoveryRelationship TypeID="MicrosoftSystemCenterSyntheticTransactionsLibrary!Microsoft.SystemCenter.SyntheticTransactions.ComputerHostsTCPPortCheckPerspective" />
-        </DiscoveryTypes>
-        <DataSource ID="PerspectiveDiscoveryDS" TypeID="MicrosoftSystemCenterSyntheticTransactionsLibrary!Microsoft.SystemCenter.SyntheticTransactions.PerspectiveDiscoveryDataSource">
-          <ClassId>$MPElement[Name="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d"]$</ClassId>
-          <DisplayName>[Internet PMU] fortigatepmu:8080</DisplayName>
-          <WatcherComputersList>(B30ADC103.uc.local|B30ADC101.uc.local)</WatcherComputersList>
-          <UniquenessKey>ca1e8e45-0942-497d-8b40-226b6f3840c9</UniquenessKey>
-        </DataSource>
-      </Discovery>
-      <Discovery ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Discovery.Rule" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup" ConfirmDelivery="false" Remotable="true" Priority="Normal">
-        <Category>Discovery</Category>
-        <DiscoveryTypes>
-          <DiscoveryClass TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup" />
-        </DiscoveryTypes>
-        <DataSource ID="GroupDiscoveryDS" TypeID="SystemCenter!Microsoft.SystemCenter.GroupPopulator">
-          <RuleId>$MPElement$</RuleId>
-          <GroupInstanceId>$Target/Id$</GroupInstanceId>
-          <MembershipRules>
-            <MembershipRule>
-              <MonitoringClass>$MPElement[Name="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d"]$</MonitoringClass>
-              <RelationshipClass>$MPElement[Name="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Contains.TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d"]$</RelationshipClass>
-            </MembershipRule>
-          </MembershipRules>
-        </DataSource>
-      </Discovery>
-      <Discovery ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup.Discovery.Rule" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup" ConfirmDelivery="false" Remotable="true" Priority="Normal">
-        <Category>Discovery</Category>
-        <DiscoveryTypes>
-          <DiscoveryClass TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup" />
-        </DiscoveryTypes>
-        <DataSource ID="GroupPopulationDataSource" TypeID="SystemCenter!Microsoft.SystemCenter.GroupPopulator">
-          <RuleId>$MPElement$</RuleId>
-          <GroupInstanceId>$Target/Id$</GroupInstanceId>
-          <MembershipRules>
-            <MembershipRule>
-              <MonitoringClass>$MPElement[Name="Windows!Microsoft.Windows.Computer"]$</MonitoringClass>
-              <RelationshipClass>$MPElement[Name="SystemCenter!Microsoft.SystemCenter.ComputerGroupContainsComputer"]$</RelationshipClass>
-              <IncludeList>
-                <MonitoringObjectId>5522599f-b089-ac23-3536-244c96e59f9c</MonitoringObjectId>
-                <MonitoringObjectId>6c2f86ed-4346-3980-70dd-e98c54812cfd</MonitoringObjectId>
-              </IncludeList>
-            </MembershipRule>
-            <MembershipRule>
-              <MonitoringClass>$MPElement[Name="Windows!Microsoft.Windows.Computer"]$</MonitoringClass>
-              <RelationshipClass>$MPElement[Name="SystemCenter!Microsoft.SystemCenter.ComputerGroupContainsComputer"]$</RelationshipClass>
-              <Expression>
-                <Contains maxDepth="1">
-                  <MonitoringClass>$MPElement[Name="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d"]$</MonitoringClass>
-                </Contains>
-              </Expression>
-            </MembershipRule>
-          </MembershipRules>
-        </DataSource>
-      </Discovery>
-      <Discovery ID="Service_c873d9d468064f86bf2542eeeb463c60_SCPopulation" Enabled="true" Target="Service_c873d9d468064f86bf2542eeeb463c60" ConfirmDelivery="false" Remotable="true" Priority="Normal">
-        <Category>Discovery</Category>
-        <DiscoveryTypes />
-        <DataSource ID="DS" TypeID="SystemCenter!Microsoft.SystemCenter.GroupPopulator">
-          <RuleId>$MPElement$</RuleId>
-          <GroupInstanceId>$Target/Id$</GroupInstanceId>
-          <MembershipRules>
-            <MembershipRule>
-              <MonitoringClass>$MPElement[Name="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60"]$</MonitoringClass>
-              <RelationshipClass>$MPElement[Name="SCMembership_45acd2b5db4f4d1891e661e01a04d973"]$</RelationshipClass>
-            </MembershipRule>
-          </MembershipRules>
-        </DataSource>
-      </Discovery>
-      <Discovery ID="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60_ItemPopulation" Enabled="true" Target="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ConfirmDelivery="false" Remotable="true" Priority="Normal">
-        <Category>Discovery</Category>
-        <DiscoveryTypes />
-        <DataSource ID="DS" TypeID="SystemCenter!Microsoft.SystemCenter.GroupPopulator">
-          <RuleId>$MPElement$</RuleId>
-          <GroupInstanceId>$Target/Id$</GroupInstanceId>
-          <MembershipRules>
-            <MembershipRule>
-              <MonitoringClass>$MPElement[Name="System!System.Entity"]$</MonitoringClass>
-              <RelationshipClass>$MPElement[Name="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab"]$</RelationshipClass>
-              <IncludeList>
-                <MonitoringObjectId>{8143bb50-7394-3175-376f-7ab53f9e4ff3}</MonitoringObjectId>
-                <MonitoringObjectId>{cc88b1d7-d64f-4165-ca28-92c05d9e002d}</MonitoringObjectId>
-              </IncludeList>
-            </MembershipRule>
-          </MembershipRules>
-        </DataSource>
-      </Discovery>
     </Discoveries>
-    <Rules>
-      <Rule ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionTime" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" ConfirmDelivery="false" Remotable="true" Priority="Normal" DiscardLevel="100">
-        <Category>PerformanceCollection</Category>
-        <DataSources>
-          <DataSource ID="DS1" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TCPPortCheckDataSource" />
-        </DataSources>
-        <ConditionDetection ID="PerfMapper" TypeID="Performance!System.Performance.DataGenericMapper">
-          <ObjectName>TCP Port Check</ObjectName>
-          <CounterName>Connection Time</CounterName>
-          <InstanceName>$Data/ServerName$:$Data/Port$</InstanceName>
-          <Value>$Data/ConnectionTime$</Value>
-        </ConditionDetection>
-        <WriteActions>
-          <WriteAction ID="PerfWriteAction" TypeID="SystemCenter!Microsoft.SystemCenter.CollectPerformanceData" />
-          <WriteAction ID="PerfWriteToDWAction" TypeID="SCDW!Microsoft.SystemCenter.DataWarehouse.PublishPerformanceData" />
-        </WriteActions>
-      </Rule>
-    </Rules>
     <Monitors>
-      <UnitMonitor ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor" Accessibility="Public" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOut" ConfirmDelivery="false">
-        <Category>PerformanceHealth</Category>
-        <AlertSettings AlertMessage="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor.AlertMessage">
-          <AlertOnState>Error</AlertOnState>
-          <AutoResolve>true</AutoResolve>
-          <AlertPriority>Normal</AlertPriority>
-          <AlertSeverity>Error</AlertSeverity>
-        </AlertSettings>
-        <OperationalStates>
-          <OperationalState ID="OK" MonitorTypeStateID="NoTimeOutFailure" HealthState="Success" />
-          <OperationalState ID="Error" MonitorTypeStateID="TimeOutFailure" HealthState="Error" />
-        </OperationalStates>
-        <Configuration />
-      </UnitMonitor>
-      <UnitMonitor ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor" Accessibility="Public" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefused" ConfirmDelivery="false">
-        <Category>PerformanceHealth</Category>
-        <AlertSettings AlertMessage="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor.AlertMessage">
-          <AlertOnState>Error</AlertOnState>
-          <AutoResolve>true</AutoResolve>
-          <AlertPriority>Normal</AlertPriority>
-          <AlertSeverity>Error</AlertSeverity>
-        </AlertSettings>
-        <OperationalStates>
-          <OperationalState ID="OK" MonitorTypeStateID="NoConnectionRefusedFailure" HealthState="Success" />
-          <OperationalState ID="Error" MonitorTypeStateID="ConnectionRefusedFailure" HealthState="Error" />
-        </OperationalStates>
-        <Configuration />
-      </UnitMonitor>
-      <UnitMonitor ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor" Accessibility="Public" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachable" ConfirmDelivery="false">
-        <Category>PerformanceHealth</Category>
-        <AlertSettings AlertMessage="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor.AlertMessage">
-          <AlertOnState>Error</AlertOnState>
-          <AutoResolve>true</AutoResolve>
-          <AlertPriority>Normal</AlertPriority>
-          <AlertSeverity>Error</AlertSeverity>
-        </AlertSettings>
-        <OperationalStates>
-          <OperationalState ID="OK" MonitorTypeStateID="NoHostUnreachableFailure" HealthState="Success" />
-          <OperationalState ID="Error" MonitorTypeStateID="HostUnreachableFailure" HealthState="Error" />
-        </OperationalStates>
-        <Configuration />
-      </UnitMonitor>
-      <UnitMonitor ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor" Accessibility="Public" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolution" ConfirmDelivery="false">
-        <Category>PerformanceHealth</Category>
-        <AlertSettings AlertMessage="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor.AlertMessage">
-          <AlertOnState>Error</AlertOnState>
-          <AutoResolve>true</AutoResolve>
-          <AlertPriority>Normal</AlertPriority>
-          <AlertSeverity>Error</AlertSeverity>
-        </AlertSettings>
-        <OperationalStates>
-          <OperationalState ID="OK" MonitorTypeStateID="NoDNSResolutionFailure" HealthState="Success" />
-          <OperationalState ID="Error" MonitorTypeStateID="DNSResolutionFailure" HealthState="Error" />
-        </OperationalStates>
-        <Configuration />
-      </UnitMonitor>
-      <UnitMonitor ID="UIGeneratedMonitor04c04cc548c44608adade0306d962ede" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
+      <AggregateMonitor ID="AggregateMonitor644a15af0e67419fa3e57773146399ce" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal">
+        <Category>Custom</Category>
+        <Algorithm>BestOf</Algorithm>
+      </AggregateMonitor>
+      <AggregateMonitor ID="AggregateMonitor5592333eabaf4b1489312ee3b0704c79" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal">
+        <Category>Custom</Category>
+        <Algorithm>BestOf</Algorithm>
+      </AggregateMonitor>
+      <UnitMonitor ID="UIGeneratedMonitor04c04cc548c44608adade0306d962ede" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="AggregateMonitor644a15af0e67419fa3e57773146399ce" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
         <Category>Custom</Category>
         <AlertSettings AlertMessage="UIGeneratedMonitor04c04cc548c44608adade0306d962ede_AlertMessageResourceID">
           <AlertOnState>Error</AlertOnState>
@@ -708,8 +304,8 @@
           <AlertSeverity>Error</AlertSeverity>
         </AlertSettings>
         <OperationalStates>
-          <OperationalState ID="UIGeneratedOpStateId4582eaee311b41c7a218299576e37271" MonitorTypeStateID="SecondEventRaised" HealthState="Success" />
-          <OperationalState ID="UIGeneratedOpStateId04c2ac69a82345dc8e78182c2809461b" MonitorTypeStateID="FirstEventRaised" HealthState="Error" />
+          <OperationalState ID="UIGeneratedOpStateId4582eaee311b41c7a218299576e37271" MonitorTypeStateID="SecondEventRaised" HealthState="Success"/>
+          <OperationalState ID="UIGeneratedOpStateId04c2ac69a82345dc8e78182c2809461b" MonitorTypeStateID="FirstEventRaised" HealthState="Error"/>
         </OperationalStates>
         <Configuration>
           <FirstInterval>60</FirstInterval>
@@ -719,7 +315,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.9.2.1.4.1</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </FirstSnmpVarBinds>
           <FirstExpression>
@@ -740,7 +336,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.9.2.1.4.1</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </SecondSnmpVarBinds>
           <SecondExpression>
@@ -759,7 +355,7 @@
           <Port>$Target/Property[Type="NetworkLibrary!System.NetworkManagement.Node"]/PortNumber$</Port>
         </Configuration>
       </UnitMonitor>
-      <UnitMonitor ID="UIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
+      <UnitMonitor ID="UIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="AggregateMonitor644a15af0e67419fa3e57773146399ce" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
         <Category>Custom</Category>
         <AlertSettings AlertMessage="UIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8_AlertMessageResourceID">
           <AlertOnState>Error</AlertOnState>
@@ -768,8 +364,8 @@
           <AlertSeverity>Error</AlertSeverity>
         </AlertSettings>
         <OperationalStates>
-          <OperationalState ID="UIGeneratedOpStateIddad6260d39f6432ca0463d6138522fad" MonitorTypeStateID="SecondEventRaised" HealthState="Success" />
-          <OperationalState ID="UIGeneratedOpStateId0c30e7d8a3c941c5ab3ec7f6b5d638bf" MonitorTypeStateID="FirstEventRaised" HealthState="Error" />
+          <OperationalState ID="UIGeneratedOpStateIddad6260d39f6432ca0463d6138522fad" MonitorTypeStateID="SecondEventRaised" HealthState="Success"/>
+          <OperationalState ID="UIGeneratedOpStateId0c30e7d8a3c941c5ab3ec7f6b5d638bf" MonitorTypeStateID="FirstEventRaised" HealthState="Error"/>
         </OperationalStates>
         <Configuration>
           <FirstInterval>60</FirstInterval>
@@ -779,7 +375,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.9.2.1.4.2</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </FirstSnmpVarBinds>
           <FirstExpression>
@@ -800,7 +396,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.9.2.1.4.2</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </SecondSnmpVarBinds>
           <SecondExpression>
@@ -819,7 +415,7 @@
           <Port>$Target/Property[Type="NetworkLibrary!System.NetworkManagement.Node"]/PortNumber$</Port>
         </Configuration>
       </UnitMonitor>
-      <UnitMonitor ID="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
+      <UnitMonitor ID="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="AggregateMonitor5592333eabaf4b1489312ee3b0704c79" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
         <Category>Custom</Category>
         <AlertSettings AlertMessage="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364_AlertMessageResourceID">
           <AlertOnState>Error</AlertOnState>
@@ -828,8 +424,8 @@
           <AlertSeverity>Error</AlertSeverity>
         </AlertSettings>
         <OperationalStates>
-          <OperationalState ID="UIGeneratedOpStateIdbe659b8a1cb7055630bc9cc2ffc036d4" MonitorTypeStateID="SecondEventRaised" HealthState="Success" />
-          <OperationalState ID="UIGeneratedOpStateId61433bdcee9fe822f9d035456050f023" MonitorTypeStateID="FirstEventRaised" HealthState="Error" />
+          <OperationalState ID="UIGeneratedOpStateIdbe659b8a1cb7055630bc9cc2ffc036d4" MonitorTypeStateID="SecondEventRaised" HealthState="Success"/>
+          <OperationalState ID="UIGeneratedOpStateId61433bdcee9fe822f9d035456050f023" MonitorTypeStateID="FirstEventRaised" HealthState="Error"/>
         </OperationalStates>
         <Configuration>
           <FirstInterval>60</FirstInterval>
@@ -839,7 +435,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.8.2.1.3.1</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </FirstSnmpVarBinds>
           <FirstExpression>
@@ -860,7 +456,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.8.2.1.3.1</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </SecondSnmpVarBinds>
           <SecondExpression>
@@ -879,7 +475,7 @@
           <Port>$Target/Property[Type="NetworkLibrary!System.NetworkManagement.Node"]/PortNumber$</Port>
         </Configuration>
       </UnitMonitor>
-      <UnitMonitor ID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
+      <UnitMonitor ID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9" Accessibility="Public" Enabled="true" Target="NetworkLibrary!System.NetworkManagement.Node" ParentMonitorID="AggregateMonitor5592333eabaf4b1489312ee3b0704c79" Remotable="true" Priority="Normal" TypeID="NetworkLibrary!System.NetworkManagement.SnmpProbe.2SingleEvent2StateMonitorType" ConfirmDelivery="false">
         <Category>Custom</Category>
         <AlertSettings AlertMessage="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9_AlertMessageResourceID">
           <AlertOnState>Error</AlertOnState>
@@ -888,8 +484,8 @@
           <AlertSeverity>Error</AlertSeverity>
         </AlertSettings>
         <OperationalStates>
-          <OperationalState ID="UIGeneratedOpStateId98a00efb75ea72372ea97b91fd43f846" MonitorTypeStateID="SecondEventRaised" HealthState="Success" />
-          <OperationalState ID="UIGeneratedOpStateId16ebede6c75b07b494cf0e9e2871958e" MonitorTypeStateID="FirstEventRaised" HealthState="Error" />
+          <OperationalState ID="UIGeneratedOpStateId98a00efb75ea72372ea97b91fd43f846" MonitorTypeStateID="SecondEventRaised" HealthState="Success"/>
+          <OperationalState ID="UIGeneratedOpStateId16ebede6c75b07b494cf0e9e2871958e" MonitorTypeStateID="FirstEventRaised" HealthState="Error"/>
         </OperationalStates>
         <Configuration>
           <FirstInterval>60</FirstInterval>
@@ -899,7 +495,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.8.2.1.3.2</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </FirstSnmpVarBinds>
           <FirstExpression>
@@ -920,7 +516,7 @@
             <SnmpVarBind>
               <OID>.1.3.6.1.4.1.12356.101.4.8.2.1.3.2</OID>
               <Syntax>0</Syntax>
-              <Value VariantType="8" />
+              <Value VariantType="8"/>
             </SnmpVarBind>
           </SecondSnmpVarBinds>
           <SecondExpression>
@@ -939,46 +535,36 @@
           <Port>$Target/Property[Type="NetworkLibrary!System.NetworkManagement.Node"]/PortNumber$</Port>
         </Configuration>
       </UnitMonitor>
-      <DependencyMonitor ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.GroupHealth" Accessibility="Public" Enabled="true" Target="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" RelationshipType="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Contains.TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" MemberMonitor="SystemHealth!System.Health.AvailabilityState">
-        <Category>PerformanceHealth</Category>
-        <AlertSettings AlertMessage="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.GroupHealth.AlertMessage">
-          <AlertOnState>Error</AlertOnState>
-          <AutoResolve>true</AutoResolve>
-          <AlertPriority>Normal</AlertPriority>
-          <AlertSeverity>Error</AlertSeverity>
-        </AlertSettings>
-        <Algorithm>WorstOf</Algorithm>
-        <MemberUnAvailable>Error</MemberUnAvailable>
-      </DependencyMonitor>
-      <DependencyMonitor ID="SCMembership_45acd2b5db4f4d1891e661e01a04d973_Availability_HealthMonitor" Accessibility="Public" Enabled="true" Target="Service_c873d9d468064f86bf2542eeeb463c60" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" RelationshipType="SCMembership_45acd2b5db4f4d1891e661e01a04d973" MemberMonitor="SystemHealth!System.Health.AvailabilityState">
-        <Category>AvailabilityHealth</Category>
-        <Algorithm>WorstOf</Algorithm>
-      </DependencyMonitor>
-      <DependencyMonitor ID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Availability_HealthMonitor" Accessibility="Public" Enabled="true" Target="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ParentMonitorID="SystemHealth!System.Health.AvailabilityState" Remotable="true" Priority="Normal" RelationshipType="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab" MemberMonitor="SystemHealth!System.Health.AvailabilityState">
-        <Category>AvailabilityHealth</Category>
-        <Algorithm>WorstOf</Algorithm>
-      </DependencyMonitor>
-      <DependencyMonitor ID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Performance_HealthMonitor" Accessibility="Public" Enabled="true" Target="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ParentMonitorID="SystemHealth!System.Health.PerformanceState" Remotable="true" Priority="Normal" RelationshipType="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab" MemberMonitor="SystemHealth!System.Health.PerformanceState">
-        <Category>PerformanceHealth</Category>
-        <Algorithm>WorstOf</Algorithm>
-      </DependencyMonitor>
-      <DependencyMonitor ID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Configuration_HealthMonitor" Accessibility="Public" Enabled="true" Target="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ParentMonitorID="SystemHealth!System.Health.ConfigurationState" Remotable="true" Priority="Normal" RelationshipType="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab" MemberMonitor="SystemHealth!System.Health.ConfigurationState">
-        <Category>ConfigurationHealth</Category>
-        <Algorithm>WorstOf</Algorithm>
-      </DependencyMonitor>
-      <DependencyMonitor ID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Security_HealthMonitor" Accessibility="Public" Enabled="true" Target="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ParentMonitorID="SystemHealth!System.Health.SecurityState" Remotable="true" Priority="Normal" RelationshipType="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab" MemberMonitor="SystemHealth!System.Health.SecurityState">
-        <Category>SecurityHealth</Category>
-        <Algorithm>WorstOf</Algorithm>
-      </DependencyMonitor>
     </Monitors>
     <Overrides>
-      <DiscoveryPropertyOverride ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.Discovery.Rule.Override" Context="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup" Enforced="false" Discovery="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.Discovery.Rule" Property="Enabled">
-        <Value>true</Value>
-      </DiscoveryPropertyOverride>
       <MonitorPropertyOverride ID="Alias17a3045dba954c61a47a72f43f79b4c9OverrideForMonitorUIGeneratedMonitor04c04cc548c44608adade0306d962edeForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="8143bb50-7394-3175-376f-7ab53f9e4ff3" Enforced="false" Monitor="UIGeneratedMonitor04c04cc548c44608adade0306d962ede" Property="Enabled">
         <Value>false</Value>
       </MonitorPropertyOverride>
       <MonitorPropertyOverride ID="Aliasace48f9fde074f7da7fa65b2b3647951OverrideForMonitorUIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="8143bb50-7394-3175-376f-7ab53f9e4ff3" Enforced="false" Monitor="UIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Alias096de30684014edd8285e39db9773bfdOverrideForMonitorUIGeneratedMonitor1462fe1bec314797d40b93e0291ee364ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="244a06a2-6d51-ecce-c34f-95e29720388d" Enforced="false" Monitor="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Aliasd68f8298d6534c059237b4c91a2736afOverrideForMonitorUIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="244a06a2-6d51-ecce-c34f-95e29720388d" Enforced="false" Monitor="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Aliase2a2c0fba6b24e5c91b199e33ca062c4OverrideForMonitorUIGeneratedMonitor1462fe1bec314797d40b93e0291ee364ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="88e6d602-6d6d-ae1f-a0b1-9f2166fa2979" Enforced="false" Monitor="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Alias6ec7400e085d40149c54182dbc729b55OverrideForMonitorUIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="88e6d602-6d6d-ae1f-a0b1-9f2166fa2979" Enforced="false" Monitor="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Alias131beba2c8ec4076a89fdad7cef55b97OverrideForMonitorUIGeneratedMonitor1462fe1bec314797d40b93e0291ee364ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="88629655-f64c-1d12-6d1b-d6dcb8a1a472" Enforced="false" Monitor="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Aliasf1aec5f544154ff885ef0357fb53e996OverrideForMonitorUIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="88629655-f64c-1d12-6d1b-d6dcb8a1a472" Enforced="false" Monitor="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Alias293ca7fc5b9247bba5ade9a5a8400924OverrideForMonitorUIGeneratedMonitor04c04cc548c44608adade0306d962edeForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="3cd5d403-323a-4aae-1632-0ac9e1f23871" Enforced="false" Monitor="UIGeneratedMonitor04c04cc548c44608adade0306d962ede" Property="Enabled">
+        <Value>false</Value>
+      </MonitorPropertyOverride>
+      <MonitorPropertyOverride ID="Aliasb4ee0b704bea498f9ffb0e448d8c0ec2OverrideForMonitorUIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8ForContextSystemNetworkManagementNode" Context="NetworkLibrary!System.NetworkManagement.Node" ContextInstance="3cd5d403-323a-4aae-1632-0ac9e1f23871" Enforced="false" Monitor="UIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8" Property="Enabled">
         <Value>false</Value>
       </MonitorPropertyOverride>
     </Overrides>
@@ -996,7 +582,7 @@
             <Id>System.NetworkManagement.Node-*-e1465592-bf5e-0824-0d72-36f5d3dde99f-*-Health</Id>
           </ColumnInfo>
           <ColumnInfo Index="1" SortIndex="-1" Width="100" Grouped="false" Sorted="false" IsSortable="true" Visible="true" SortOrder="Ascending">
-            <Name>Maintenance Mode</Name>
+            <Name>In Maintenance Mode</Name>
             <Id>InMaintenanceMode</Id>
           </ColumnInfo>
           <ColumnInfo Index="2" SortIndex="-1" Width="100" Grouped="false" Sorted="false" IsSortable="true" Visible="true" SortOrder="Ascending">
@@ -3673,7 +3259,7 @@
       </View>
       <View ID="View_726438e604a44e2193dcee507eeb50e1" Accessibility="Public" Enabled="true" Target="System!System.Entity" TypeID="SystemCenter!Microsoft.SystemCenter.AlertViewType" Visible="true">
         <Category>Operations</Category>
-        <Criteria />
+        <Criteria/>
         <Presentation>
           <ColumnInfo Index="0" SortIndex="0" Width="22" Grouped="true" Sorted="false" IsSortable="true" Visible="true" SortOrder="Ascending">
             <Name>Severity</Name>
@@ -3836,53 +3422,18 @@
       </View>
     </Views>
     <Folders>
-      <Folder ID="Folder_30d0ef7293e74016ae9168ab17e9b7a2" Accessibility="Public" ParentFolder="SystemCenter!Microsoft.SystemCenter.Monitoring.ViewFolder.Root" />
-      <Folder ID="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" Accessibility="Internal" ParentFolder="MicrosoftSystemCenterSyntheticTransactionsLibrary!Microsoft.SystemCenter.SyntheticTransactions.TCPPortCheck.Template.Folder" />
+      <Folder ID="Folder_30d0ef7293e74016ae9168ab17e9b7a2" Accessibility="Public" ParentFolder="SystemCenter!Microsoft.SystemCenter.Monitoring.ViewFolder.Root"/>
     </Folders>
     <FolderItems>
-      <FolderItem ElementID="View_128056aa642643679944e957d490e5f2" ID="i8d3e66c6a2a54d37851162543f3e5692" Folder="Folder_30d0ef7293e74016ae9168ab17e9b7a2" />
-      <FolderItem ElementID="View_e074af05cafe414981a7efb96ea6341f" ID="ieb7b5aaad45548dab61979be539c9d23" Folder="Folder_30d0ef7293e74016ae9168ab17e9b7a2" />
-      <FolderItem ElementID="View_726438e604a44e2193dcee507eeb50e1" ID="i109ac60b5c79496f8e87466b5a4e7a01" Folder="Folder_30d0ef7293e74016ae9168ab17e9b7a2" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" ID="i46d2fa9d211f4856aa1bf7fa0d244f36" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup" ID="i1f17ceec0c584a3f962dd64f3259293c" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup" ID="icd8489eb70af4aff878953866650c3d5" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Contains.TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d" ID="ic392c823e6634a6182589570a01f9305" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TCPPortCheckDataSource" ID="i001c9a90e182470ba6567f8cfd309c8d" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOut" ID="i19a161120f254ac68b2a1d74bf730f0a" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefused" ID="i82144968321645ea9accfa0346e89818" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolution" ID="ib56024453552449a84da9bc278d49141" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachable" ID="i5b4f0067484f4be3b31b6da10faf815f" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionTime" ID="i5a25cf40d3aa45e3920cc023df7b6ce1" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.Discovery.Rule" ID="i2343f613d79948fab4093d126668d42d" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Discovery.Rule" ID="i67e1bc42649e4309a3c478ceeb1b08bc" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup.Discovery.Rule" ID="i387d12ccd1ed4eb2acd5e48218019949" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor" ID="i6a641e8c3f564b118671917a35991074" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor" ID="iefa68da143654898b64e20632655c278" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor" ID="i2e1ab2675e99473285022eccae16a600" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor" ID="i261f6ed602b3462b89632f6eacae46ab" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.GroupHealth" ID="i515efbc716964f7282d20c4408c3f233" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.Discovery.Rule.Override" ID="i5a11124016a842309d0f868b32d48441" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.GroupHealth.AlertMessage" ID="if9ccfe7b0492400cae75d6056e227100" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor.AlertMessage" ID="if90457a11623429b86a122283560c546" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor.AlertMessage" ID="i0520d36c0705446f9842aaa4cca2d3d4" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor.AlertMessage" ID="iefa6329040504c259ff0d67453f1d070" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
-      <FolderItem ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor.AlertMessage" ID="ia0cad417b19748fc8ef1a5d690c38b49" Folder="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0" />
+      <FolderItem ElementID="View_128056aa642643679944e957d490e5f2" ID="i8d3e66c6a2a54d37851162543f3e5692" Folder="Folder_30d0ef7293e74016ae9168ab17e9b7a2"/>
+      <FolderItem ElementID="View_e074af05cafe414981a7efb96ea6341f" ID="ieb7b5aaad45548dab61979be539c9d23" Folder="Folder_30d0ef7293e74016ae9168ab17e9b7a2"/>
+      <FolderItem ElementID="View_726438e604a44e2193dcee507eeb50e1" ID="i109ac60b5c79496f8e87466b5a4e7a01" Folder="Folder_30d0ef7293e74016ae9168ab17e9b7a2"/>
     </FolderItems>
-    <ImageReferences>
-      <ImageReference ElementID="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ImageID="Image!LogicalEntity16" />
-      <ImageReference ElementID="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ImageID="Image!GenericBaseEntity80" />
-      <ImageReference ElementID="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60" ImageID="Image!GenericBaseEntity16" />
-    </ImageReferences>
     <StringResources>
-      <StringResource ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.GroupHealth.AlertMessage" />
-      <StringResource ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor.AlertMessage" />
-      <StringResource ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor.AlertMessage" />
-      <StringResource ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor.AlertMessage" />
-      <StringResource ID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor.AlertMessage" />
-      <StringResource ID="UIGeneratedMonitor04c04cc548c44608adade0306d962ede_AlertMessageResourceID" />
-      <StringResource ID="UIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8_AlertMessageResourceID" />
-      <StringResource ID="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364_AlertMessageResourceID" />
-      <StringResource ID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9_AlertMessageResourceID" />
+      <StringResource ID="UIGeneratedMonitor04c04cc548c44608adade0306d962ede_AlertMessageResourceID"/>
+      <StringResource ID="UIGeneratedMonitor9ceb285eac2d4154a24912f29d5798c8_AlertMessageResourceID"/>
+      <StringResource ID="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364_AlertMessageResourceID"/>
+      <StringResource ID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9_AlertMessageResourceID"/>
     </StringResources>
   </Presentation>
   <LanguagePacks>
@@ -3917,154 +3468,6 @@
         <DisplayString ElementID="View_726438e604a44e2193dcee507eeb50e1">
           <Name>Alert View</Name>
         </DisplayString>
-        <DisplayString ElementID="TemplateoutputMicrosoftSystemCenterSyntheticTransactionsTCPPortCheckTemplate11142019012152426e894834f148f79c202cf073bc08e0">
-          <Name>[Internet PMU] fortigatepmu:8080</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d">
-          <Name>[Internet PMU] fortigatepmu:8080</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.Discovery.Rule">
-          <Name>[Internet PMU] fortigatepmu:8080 Discovery</Name>
-          <Description>Discovery rule for [Internet PMU] fortigatepmu:8080</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Discovery.Rule">
-          <Name>[Internet PMU] fortigatepmu:8080 Group Discovery</Name>
-          <Description>Discovery for group of [Internet PMU] fortigatepmu:8080</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup.Discovery.Rule">
-          <Name>[Internet PMU] fortigatepmu:8080 Watcher Group Discovery</Name>
-          <Description>Discovery for [Internet PMU] fortigatepmu:8080 watcher computers</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup.Contains.TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d">
-          <Name>Group of [Internet PMU] fortigatepmu:8080</Name>
-          <Description>Group of [Internet PMU] fortigatepmu:8080</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dWatcherComputersGroup">
-          <Name>[Internet PMU] fortigatepmu:8080 watcher computers group</Name>
-          <Description>Group of [Internet PMU] fortigatepmu:8080 watcher computers</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor">
-          <Name>Connection Timeout</Name>
-          <Description>A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor.AlertMessage">
-          <Name>Connection Timeout</Name>
-          <Description>A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. ServerName: 172.29.120.3 Port: 8080</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor">
-          <Name>DNS Resolution Failure</Name>
-          <Description>Unable to resolve name to IP.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor.AlertMessage">
-          <Name>DNS Resolution Failure</Name>
-          <Description>Unable to resolve name to IP. ServerName: 172.29.120.3 Port: 8080</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor">
-          <Name>Host Unreachable</Name>
-          <Description>A socket operation was attempted to an unreachable host.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor.AlertMessage">
-          <Name>Host Unreachable</Name>
-          <Description>A socket operation was attempted to an unreachable host. ServerName: 172.29.120.3 Port: 8080</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor">
-          <Name>Connection Refused</Name>
-          <Description>No connection could be made because the target machine actively refused it.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor.AlertMessage">
-          <Name>Connection Refused</Name>
-          <Description>No connection could be made because the target machine actively refused it. ServerName: 172.29.120.3 Port: 8080</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.GroupHealth">
-          <Name>[Internet PMU] fortigatepmu:8080 Group Roll-up Monitor</Name>
-          <Description>TCP Port Check Dependency Monitor that rolls up health for all Watcher Nodes Monitoring [Internet PMU] fortigatepmu:8080. This monitors 172.29.120.3 on port 8080.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.GroupHealth.AlertMessage">
-          <Name>[Internet PMU] fortigatepmu:8080 Group Roll-up Monitor</Name>
-          <Description>TCP Port Check Dependency Monitor that rolls up health for all Watcher Nodes Monitoring [Internet PMU] fortigatepmu:8080. This monitors 172.29.120.3 on port 8080.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56dGroup">
-          <Name>[Internet PMU] fortigatepmu:8080 TCP Port Check Group</Name>
-          <Description>TCP Port Check Group that rolls up health of all watcher nodes monitoring [Internet PMU] fortigatepmu:8080.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionTime">
-          <Name>[Internet PMU] fortigatepmu:8080 TCP Port Connection Time Performance Collection</Name>
-          <Description>This performance collection rule collects the time it takes to connect to 172.29.120.3 on port 8080.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOut">
-          <Name>Connection Timeout</Name>
-          <Description>This monitor type monitors for timeouts when attempting to connect to a port.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOut" SubElementID="TimeOutFailure">
-          <Name>Timeout Failure (Error)</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOut" SubElementID="NoTimeOutFailure">
-          <Name>No Timeout (Success)</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefused">
-          <Name>Connection Refused</Name>
-          <Description>This monitor type monitors being forcibly closed when attempting to connect to a port.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefused" SubElementID="ConnectionRefusedFailure">
-          <Name>Connection Refused (Error)</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefused" SubElementID="NoConnectionRefusedFailure">
-          <Name>Connection Accepted (Success)</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolution">
-          <Name>DNS Resolution Failure</Name>
-          <Description>This monitor type monitors any DNS resolution failure when attempting to connect to a port.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolution" SubElementID="DNSResolutionFailure">
-          <Name>DNS Resolution Failure (Error)</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolution" SubElementID="NoDNSResolutionFailure">
-          <Name>DNS Resolution Completed (Success)</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachable">
-          <Name>Host Unreachable</Name>
-          <Description>This monitor type monitors not being able to connect to a port.</Description>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachable" SubElementID="HostUnreachableFailure">
-          <Name>Host Unreachable (Error)</Name>
-        </DisplayString>
-        <DisplayString ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachable" SubElementID="NoHostUnreachableFailure">
-          <Name>Host Reachable (Success)</Name>
-        </DisplayString>
-        <DisplayString ElementID="Service_c873d9d468064f86bf2542eeeb463c60">
-          <Name>![DA] Internet PMU 2019</Name>
-        </DisplayString>
-        <DisplayString ElementID="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60">
-          <Name>Internet PMU</Name>
-        </DisplayString>
-        <DisplayString ElementID="SCMembership_45acd2b5db4f4d1891e661e01a04d973_Availability_HealthMonitor">
-          <Name>Service Health Roll-up for component Internet PMU</Name>
-          <Description>The health of this service is determined by the health of its components. This monitor rolls up health from a particular component to the serivce.</Description>
-        </DisplayString>
-        <DisplayString ElementID="Service_c873d9d468064f86bf2542eeeb463c60_SCPopulation">
-          <Name>Distributed Application Membership Discovery</Name>
-          <Description>This discovery will find which Components are members of this Distributed Application.</Description>
-        </DisplayString>
-        <DisplayString ElementID="SC_78440ae0989441a5b0b8af5b523e81eb_Service_c873d9d468064f86bf2542eeeb463c60_ItemPopulation">
-          <Name>Component Membership Discovery</Name>
-          <Description>This discovery will find which Objects are members of this Component.</Description>
-        </DisplayString>
-        <DisplayString ElementID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Availability_HealthMonitor">
-          <Name>Component Group Health Roll-up for type Object</Name>
-          <Description>The health of this Component is determined by the health of its members. This monitor rolls up health from each of the members of this Component.</Description>
-        </DisplayString>
-        <DisplayString ElementID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Performance_HealthMonitor">
-          <Name>Component Group Health Roll-up for type Object</Name>
-          <Description>The health of this Component is determined by the health of its members. This monitor rolls up health from each of the members of this Component.</Description>
-        </DisplayString>
-        <DisplayString ElementID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Configuration_HealthMonitor">
-          <Name>Component Group Health Roll-up for type Object</Name>
-          <Description>The health of this Component is determined by the health of its members. This monitor rolls up health from each of the members of this Component.</Description>
-        </DisplayString>
-        <DisplayString ElementID="SCIMembership_2692ae5475e04371bbff6eb727c8a1ab_Security_HealthMonitor">
-          <Name>Component Group Health Roll-up for type Object</Name>
-          <Description>The health of this Component is determined by the health of its members. This monitor rolls up health from each of the members of this Component.</Description>
-        </DisplayString>
         <DisplayString ElementID="UIGeneratedMonitor04c04cc548c44608adade0306d962ede">
           <Name>Internet Check (SD-WAN Mechanism) - Link 1</Name>
         </DisplayString>
@@ -4090,10 +3493,10 @@
           <Name>Check Fail</Name>
         </DisplayString>
         <DisplayString ElementID="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364">
-          <Name>Internet Check (Static Route Mechanism) - Link 1</Name>
+          <Name>Internet Check (Link-Monitor Mechanism) - Link 1</Name>
         </DisplayString>
         <DisplayString ElementID="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364_AlertMessageResourceID">
-          <Name>Internet Check (Static Route Mechanism) - Link 1</Name>
+          <Name>Internet Check (Link-Monitor Mechanism) - Link 1</Name>
         </DisplayString>
         <DisplayString ElementID="UIGeneratedMonitor1462fe1bec314797d40b93e0291ee364" SubElementID="UIGeneratedOpStateIdbe659b8a1cb7055630bc9cc2ffc036d4">
           <Name>Check Success</Name>
@@ -4102,10 +3505,10 @@
           <Name>Check Fail</Name>
         </DisplayString>
         <DisplayString ElementID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9">
-          <Name>Internet Check (Static Route Mechanism) - Link 2</Name>
+          <Name>Internet Check (Link-Monitor Mechanism) - Link 2</Name>
         </DisplayString>
         <DisplayString ElementID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9_AlertMessageResourceID">
-          <Name>Internet Check (Static Route Mechanism) - Link 2</Name>
+          <Name>Internet Check (Link-Monitor Mechanism) - Link 2</Name>
         </DisplayString>
         <DisplayString ElementID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9" SubElementID="UIGeneratedOpStateId98a00efb75ea72372ea97b91fd43f846">
           <Name>Check Success</Name>
@@ -4113,186 +3516,14 @@
         <DisplayString ElementID="UIGeneratedMonitor99ea1dc923b4837669e552a8cb3c11f9" SubElementID="UIGeneratedOpStateId16ebede6c75b07b494cf0e9e2871958e">
           <Name>Check Fail</Name>
         </DisplayString>
+        <DisplayString ElementID="AggregateMonitor644a15af0e67419fa3e57773146399ce">
+          <Name>SD-WAN Mechanism</Name>
+        </DisplayString>
+        <DisplayString ElementID="AggregateMonitor5592333eabaf4b1489312ee3b0704c79">
+          <Name>Link-Monitor Mechanism</Name>
+          <Description/>
+        </DisplayString>
       </DisplayStrings>
-      <KnowledgeArticles>
-        <KnowledgeArticle ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.TimeOutMonitor" Visible="true">
-          <MamlContent>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Summary</maml:title>
-              <maml:para>Connecting to the target part timed out.</maml:para>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Causes</maml:title>
-              <maml:para>This can happen for a few reasons:</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>The target computer is offline</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>There is a firewall between the watcher node and the target IP or device</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>IPSec is required between the watcher node and the target IP or device</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>The target IP:Port is actually not available</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Resolutions</maml:title>
-              <maml:para>Try the following troubleshooting steps to attempt to fix the problem</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>Ping the target computer to ensure it's on the network</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>Telnet to the target IP:Port</maml:para>
-                  <maml:para />
-                  <maml:example>
-                    <maml:para>telnet x.x.x.x ####</maml:para>
-                  </maml:example>
-                  <maml:para />
-                  <maml:para>Where x.x.x.x. is the IP Address or device name and #### is the target port number.</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-          </MamlContent>
-        </KnowledgeArticle>
-        <KnowledgeArticle ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.DNSResolutionMonitor" Visible="true">
-          <MamlContent>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Summary</maml:title>
-              <maml:para>Could not resolve the name supplied name through the watcher nodes Domain Name Service.</maml:para>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Causes</maml:title>
-              <maml:para>This can happen for a few reasons:</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>The DNS client side cache has a stale entry</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>The DNS infrastructure not available</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>The watcher node DNS settings are out of date or incorrect</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>DNS has a stale entry for the supplied target name and is returning the wrong IP address</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Resolutions</maml:title>
-              <maml:para>Try the following troubleshooting steps to attempt to fix the problem</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>On a Windows Computer, at the command line type:</maml:para>
-                  <maml:para>ipconfig /flushdns</maml:para>
-                  <maml:para />
-                  <maml:para>Then type:</maml:para>
-                  <maml:para>ipconfig /registerdns</maml:para>
-                  <maml:para />
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>Check with your network or domain administrator if there is any problems with the DNS infrastructure that the watcher node is configured to use.</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>Check the IP Address that is being returned to ensure it is returning the actual device name you expect.</maml:para>
-                  <maml:para>Do this by pinging by the device name you supplied in the wizard. Next take the IP Address and type ping -a [IPAddress]. For example, if the IP Address is 10.10.1.1:</maml:para>
-                  <maml:example>
-                    <maml:para>ping -a 10.10.1.1</maml:para>
-                  </maml:example>
-                  <maml:para />
-                  <maml:para>If the name returned is different than the name supplied in the wizard there are likely some name resolution issues related to having a misconfigured or stale DNS entry.</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-          </MamlContent>
-        </KnowledgeArticle>
-        <KnowledgeArticle ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.HostUnreachableMonitor" Visible="true">
-          <MamlContent>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Summary</maml:title>
-              <maml:para>The target IP or device could not be reached</maml:para>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Causes</maml:title>
-              <maml:para>This can happen for a few reasons:</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>The target computer is offline</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>The watcher node doesn't have the appropriate permissions</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>There may be a firewall between the watcher node and the target device</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Resolutions</maml:title>
-              <maml:para>Try the following troubleshooting steps to attempt to fix the problem</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>Ping the target computer to ensure it's on the network</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>Ensure that the Run As account used by the watcher node has the appropriate permissions to the target data source</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>Check if the Windows Firewall is enabled on either the target machine or the watcher node. If it is, create an exclusion for the application you are monitoring.</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-          </MamlContent>
-        </KnowledgeArticle>
-        <KnowledgeArticle ElementID="TCPPortCheck_92f08bf2d5b94eedb55b11802ceee56d.ConnectionRefusedMonitor" Visible="true">
-          <MamlContent>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Summary</maml:title>
-              <maml:para>Connection is refused</maml:para>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Causes</maml:title>
-              <maml:para>This can happen for a few reasons:</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>The watcher node doesn't have the appropriate permissions</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-            <section xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns="http://schemas.microsoft.com/maml/2004/10">
-              <maml:title>Resolutions</maml:title>
-              <maml:para>Try the following troubleshooting steps to attempt to fix the problem</maml:para>
-              <maml:para />
-              <maml:list>
-                <maml:listItem>
-                  <maml:para>Ensure that if IPSec is configured, that the machine can establish an IPSec connection</maml:para>
-                </maml:listItem>
-                <maml:listItem>
-                  <maml:para>Telnet to the target IP:Port</maml:para>
-                  <maml:para />
-                  <maml:example>
-                    <maml:para>telnet x.x.x.x ####</maml:para>
-                  </maml:example>
-                  <maml:para />
-                  <maml:para>Where x.x.x.x. is the IP Address or device name and #### is the target port number.</maml:para>
-                </maml:listItem>
-              </maml:list>
-            </section>
-          </MamlContent>
-        </KnowledgeArticle>
-      </KnowledgeArticles>
     </LanguagePack>
     <LanguagePack ID="RUS" IsDefault="false">
       <DisplayStrings>
